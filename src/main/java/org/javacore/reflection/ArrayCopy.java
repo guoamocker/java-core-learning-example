@@ -39,7 +39,9 @@ public class ArrayCopy {
         // 获取Class对象
         Class cl = a.getClass();
         // 如果不是数组对象，则返回null;
-        if (!cl.isArray()) return null;
+        if (!cl.isArray()) {
+            return null;
+        }
         // 获取数组组件对象
         Class componentType = cl.getComponentType();
         int length = Array.getLength(a);
