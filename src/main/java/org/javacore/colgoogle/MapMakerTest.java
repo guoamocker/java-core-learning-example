@@ -9,7 +9,11 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by 子木 on 2016/2/20.
  */
-public class MapMakerT {
+public class MapMakerTest {
+
+    public void test(){
+
+    }
     // 使用案例:存储验证码
     // <String, String> == <用户唯一，验证码>
     // expiration(15, TimeUnit.MINUTES) 有效期15分钟

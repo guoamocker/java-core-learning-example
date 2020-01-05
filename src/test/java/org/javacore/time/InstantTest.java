@@ -1,5 +1,7 @@
 package org.javacore.time;
 
+import org.junit.Test;
+
 import java.time.Instant;
 
 /**
@@ -8,7 +10,9 @@ import java.time.Instant;
  * Created by bysocket on 16/7/12.
  */
 public class InstantTest {
-    public static void main(String[] args) {
+
+    @Test
+    public void test() {
         // 获取现在的时间
         Instant now = Instant.now();
         System.out.println(now);

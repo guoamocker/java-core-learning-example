@@ -1,12 +1,16 @@
 package org.javacore.time;
 
+import org.junit.Test;
+
 import java.time.LocalDate;
 
 /**
  * Created by bysocket on 16/8/23.
  */
 public class LocalDateTest {
-	public static void main(String[] args) {
+
+    @Test
+	public void test() {
 		// 今天的日期
 		LocalDate localDate = LocalDate.now();
 
